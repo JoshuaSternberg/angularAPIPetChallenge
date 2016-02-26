@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/animalOne.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/animalTwo.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/animalThree.js"></script>
+
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles/stylesheet.css" />
+</head>
+<body>
+<h1>Data API Challenge: Random Animals!</h1>
+
+
+<div class="navigation" ng-include="'/views/templates/nav.html'"></div>
+
+<div ng-view>
+
+</div>
+
+</body>
+</html>
